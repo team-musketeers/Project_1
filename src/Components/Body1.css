@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sams',sans-serif;
+}
+p{
+   font-size: 0.7rem;
+   color: white;
+   width: 100%;
+}
+.body_cont{
+    background-color: #131313;
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px 200px ;
+}
+.icon{
+    color: #1867cf;
+    font-size: 1.7rem;
+    width: 100%;
+}
+.iconsp{
+    font-size: 0.7rem;
+    color: white;
+    width: 100%;
+    padding-left: 5px;
+}
+.body_cont_in{
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 10px;
+}
