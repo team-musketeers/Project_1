@@ -1,4 +1,5 @@
 import './Navbar.css';
+import {Link} from 'react-router-dom';
 function activate(){
     const menu = document.querySelector('.navbar_toggle');
     const menuLinks = document.querySelector('.navbar_menu');
@@ -9,8 +10,7 @@ function Navbar() {
     return (
         <nav className="navbar">
             <div className="navbar_container">
-                <a href="https://www.bing.com/ck/a?!&&p=156972f1b73ca515JmltdHM9MTY3NjkzNzYwMCZpZ3VpZD0xNThkZDVkOS0wY2IwLTZiMDktMTU0ZC1jNzY0MGQ2NTZhZWYmaW5zaWQ9NTE4MA&ptn=3&hsh=3&fclid=158dd5d9-0cb0-6b09-154d-c7640d656aef&psq=att+website&u=a1aHR0cHM6Ly93d3cuYXR0LmNvbS8&ntb=1"
-                    target={"_blank"} id="navbar_logo">AT&T</a>
+                <a target={"_blank"} id="navbar_logo">React</a>
                 <div className="navbar_toggle" id="mobile-menu" onClick={() => activate()}>
                     <span className="bar"></span>
                     <span className="bar"></span>
@@ -18,28 +18,28 @@ function Navbar() {
                 </div>
                 <ul className="navbar_menu">
                     <li className="navbar_item">
-                        <a href="/" className="navbar_links">Deals</a>
+                        <Link to = "/login" className='navbar_links'>Login</Link>
                     </li>
                     <li className="navbar_item">
-                        <a href="/tech.html" className="navbar_links">Wireless</a>
+                        <Link to =" " className="navbar_links">Home</Link>
                     </li>
                     <li className="navbar_item">
-                        <a href="/tech.html" className="navbar_links">Internet</a>
+                        <Link to = "/dairy" className='navbar_links'>Dairy</Link>
                     </li>
                     <li className="navbar_item">
-                        <a href="/tech.html" className="navbar_links">Accessories</a>
+                        <a href="/usecontext" className="navbar_links">UseContext</a>
                     </li>
                     <li className="navbar_item">
-                        <a href="/tech.html" className="navbar_links">TV</a>
+                        <Link to='/usestate' className='navbar_links'>UseState</Link>
                     </li>
                     <li className="navbar_item">
-                        <a href="/tech.html" className="navbar_links">Prepaid</a>
+                        <Link to = "/liftstate" className='navbar_links'>LifingStateUp</Link>
                     </li>
                     <li className="navbar_item">
-                        <a href="/tech.html" className="navbar_links">Business</a>
+                        <Link to = "/customhook1" className='navbar_links'>1</Link>
                     </li>
-                    <li className="navbar_btn">
-                        <a href="/tech.html" className="button">My AT&T</a>
+                    <li className="navbar_item">
+                        <Link to = "/customhook2" className='navbar_links'>2</Link>
                     </li>
                 </ul>
             </div>

@@ -5,7 +5,7 @@
     font-family: 'Kumbh Sams',sans-serif;
    }
    .navbar{
-       background-color: #131313;
+       background-color: #b4d5fc;
        height: 80px;
        display: flex;
        justify-content: center;
@@ -26,8 +26,8 @@
        padding: 0 50px;
    }
    #navbar_logo{
-       background-color: #2970c2;
-       background-image: linear-gradient(to top,#fff 0%,#2970c2 100%);
+       background-color: #131313;
+       background-image: linear-gradient(to top,#131313 0%,#2970c2 100%);
        background-size: 100%;
        -webkit-background-clip: text;
        -moz-background-clip: text;
@@ -50,7 +50,7 @@
        height :80px;
    }
    .navbar_links{
-       color: #fff;
+       color: #131313;
        display: flex;
        align-items: center;
        justify-content: center;
@@ -85,7 +85,7 @@
       color: #131313;
    }
    .navbar_links:hover {
-       color: #2970c2;
+       color: #fff;
        transition : all 0.3s ease;
    }
    
@@ -109,7 +109,7 @@
            transition: all 0.5s ease; 
            height: 65vh;
            z-index: -1;
-           background: #131313;
+           background: #b4d5fc;
        }
    
        .navbar_menu.active {  
@@ -130,7 +130,7 @@
            height: 3px;
            margin: 5px auto;
            transition: all 0.3s ease-in-out;
-           background: #fff;
+           background: #131313;
        }
        .navbar_item{
            width: 100%;
